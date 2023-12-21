@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+*{
+    font-family:'Poppins', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    cursor: pointer;
+}
+/* lenis scroll css */
+html.lenis {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+}
+.socials{
+    margin-left: 50vw;
+    display: flex;
+}
+span{
+    padding: 25px 50px 25px;
+    font-size: 30px;
+}
+.icon{
+    color: white;
+}
+.page1{
+    padding: 0;
+    height: 70vh;
+    background-color: black;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+.page1 h1{
+    position: absolute;
+    font-size: 1000%;
+    font-weight: 300;
+    background-color: transparent;
+    padding: inherit;
+}
+.page1 h1:hover{
+    text-shadow: 0 0 10px white;
+}
+.page1 img{
+    z-index: 1;
+    width: 80%;
+    max-width: 500px;
+    max-height: 500px;
+    position: absolute;
+    left: 34%;
+    right: 50%;
+    margin: 10px auto 0;
+    background-color: transparent;
+}
+.page1 button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 500px;
+    font-size: 16px;
+}
+.page1 button a{
+    text-decoration: none;
+    background-color: white;
+}
+.page1 button:hover,.page1 button a:hover{
+    background-color: rgb(199, 197, 197);
+}
+.page2{
+    margin-top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.page2 h1, h2{
+    font-size: 800%;
+    min-height: 10%;
+    position: relative;
+    bottom: 600px;
+    background-color: transparent;
+    z-index: 2;
+}
+.page2 h1:hover,h2:hover{
+    text-shadow: 0 0 20px white ;
+}
+.sec1 img{
+    position: relative;
+    right: 30%;
+    width: 50%;
+    max-width: 400px;
+    top: 50px;
+    z-index: 1;
+    background-color: transparent;
+    transition: transform 0.2s;
+}
+.sec1 img:hover{
+    transform: rotate(50deg);
+}
+.sec2 img{
+    position: relative;
+    left: 30%;
+    width: 50%;
+    bottom: 70px;
+    max-width: 450px;
+    z-index: 1;
+    background-color: transparent;
+}
+.page3{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+.feature{
+    display: block;
+    text-align: left;
+    padding: 50px;
+    font-size: 40px;
+    width: 80%;
+    height: 200px;
+    margin: 80px;
+    border-radius: 30px;
+}
+.feature:hover , .feature2:hover{
+    box-shadow: 0 0 10px white;
+}
+.feature img{
+    width: 280px;
+    padding-left: 800px;
+    position: relative;
+    bottom: 180px;
+    background-color: transparent;
+    transition: transform 0.2s ease-in-out;
+}
+.feature p{
+    font-size: 14px;
+    width: 500px;
+    margin-top: 20px;
+}
+.feature2{
+    display: block;
+    text-align: right;
+    padding: 50px;
+    font-size: 40px;  
+    width: 80%;
+    height: 200px;
+    margin: 80px;
+    /* box-shadow: 0 0 10px white; */
+    border-radius: 30px;
+}
+.feature2 h3{
+    margin-right: 150px;
+}
+.feature2 img{
+    width: 300px;
+    padding-right: 700px;
+    position: relative;
+    bottom: 190px;
+    background-color: transparent;
+    transition: transform 0.2s ease-in-out;
+}
+.feature2 p{
+    margin-left: 550px;
+    font-size: 14px;
+    width: 500px;
+    margin-top: 20px;
+}
+.feature img:hover , .feature2 img:hover{
+    transform: scale(1.1);
+}
+footer{
+    bottom: 0;
+    height: 300px;
+}
+.cherry{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    color: white;
+}
+.cherry a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 80px 10px;
+    color: black;
+    font-weight: 100;
+    border-radius: 15px;
+}
+.cherry a:hover{
+    box-shadow: 0 0 10px white;
+    background-color: gainsboro;
+}
+.cherry h5{
+    margin-top: 100px;
+}
